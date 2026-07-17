@@ -1,4 +1,4 @@
-# Retail-Analytics-_DAX_Project
+# Retail_Analytics_DAX_Project
 # 📊 Retail Sales Analytics Dashboard | Power BI
 
 A comprehensive **Power BI Dashboard** built to analyze retail sales performance across multiple business dimensions, including Executive KPIs, Product Performance, Customer Analytics, and Time Intelligence.
