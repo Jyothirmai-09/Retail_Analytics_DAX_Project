@@ -1,214 +1,214 @@
 # Retail_Analytics_DAX_Project
-# 📊 Retail Sales Analytics Dashboard | Power BI
+# 📊 Retail Sales Analytics Dashboard Suite | Power BI
 
-A comprehensive **Power BI Dashboard** built to analyze retail sales performance across multiple business dimensions, including Executive KPIs, Product Performance, Customer Analytics, and Time Intelligence.
+## 📌 Overview
 
-The dashboard enables business stakeholders to monitor revenue, profit, customer behavior, product performance, and sales trends through interactive visualizations and dynamic filtering.
+The **Retail Sales Analytics Dashboard Suite** is an end-to-end Power BI project designed to provide comprehensive business insights across Executive Performance, Product Analysis, Customer Analytics, and Time Intelligence.
 
----
-
-## 📌 Project Overview
-
-This project transforms raw retail sales data into meaningful business insights using Power BI. It follows industry-standard dashboard design principles with an interactive navigation panel, slicers, KPI cards, and advanced DAX measures to support data-driven decision-making.
-
-The report consists of four business-focused dashboards:
-
-- 📈 Executive KPI Dashboard
-- 📦 Product Performance Dashboard
-- 👥 Customer Analytics Dashboard
-- 📅 Time Intelligence Dashboard
+Built using Power BI, Power Query, and DAX, this project transforms raw retail sales data into interactive dashboards that enable data-driven decision-making through dynamic KPIs, trend analysis, customer segmentation, and advanced time intelligence.
 
 ---
 
-## 🚀 Features
+# 🚀 Dashboards Included
 
-- Executive KPI Overview
-- Interactive Navigation Menu
-- Dynamic Slicers
-- Dark Professional Dashboard Theme
-- Time Intelligence Analysis (MTD, QTD, YTD)
-- Product Performance Analysis
-- Customer Analytics
-- Business Insights Section
-- Responsive Dashboard Layout
-- Advanced DAX Measures
+## 📈 1. Executive KPI Dashboard
 
----
+Provides a high-level overview of business performance with key financial metrics and sales insights.
 
-# 📊 Dashboard Pages
-
-## 1️⃣ Executive KPI Dashboard
-
-Provides a high-level summary of overall business performance.
-
-### KPIs
+### Features
 - Total Revenue
 - Total Profit
-- Total Quantity Sold
-- Profit Margin %
-
-### Visuals
+- Total Orders
+- Profit Margin
 - Revenue by City
-- Monthly Revenue Trend
 - Revenue by Store
-- Revenue by Product Category
+- Revenue by Category
+- Business Insights
+- Interactive Filters
 
 ---
 
-## 2️⃣ Product Performance Dashboard
+## 📦 2. Product Performance Dashboard
 
-Analyzes product sales and profitability.
+Analyzes product sales, profitability, and category performance.
 
-### KPIs
-- Total Profit
-- Total Invoices
-- Total Quantity
-- Average Order Value
-
-### Visuals
-- Product Category Contribution
-- Top 5 Products by Revenue
-- Monthly Orders Trend
-- Monthly Sales vs Profit Trend
+### Features
+- Product Revenue Analysis
+- Profit Analysis
+- Quantity Sold
+- Monthly Sales Trend
+- Category Contribution
+- Product Ranking
+- Performance Overview
 
 ---
 
-## 3️⃣ Customer Analytics Dashboard
+## 👥 3. Customer Analytics Dashboard
 
-Analyzes customer behavior and purchasing trends.
+Explores customer purchasing behavior and revenue contribution.
 
-### KPIs
-- Total Transactions
-- Total Customers
-- Total Revenue
-
-### Visuals
-- Revenue by Customer Segment
-- Top Customers by Revenue
-- Monthly Customer Growth
-- Customer Distribution by City
+### Features
+- Customer Segmentation
+- Revenue by Customer
+- Customer Distribution
+- Geographic Analysis
+- Top Customers
+- Customer KPIs
+- Average Revenue per Customer
 
 ---
 
-## 4️⃣ Time Intelligence Dashboard
+## 📅 4. Time Intelligence Dashboard
 
-Tracks sales performance across different time periods.
+Tracks business performance across different time periods using advanced DAX Time Intelligence functions.
 
-### KPIs
-- Current MTD Sales
-- Current QTD Sales
-- Current YTD Sales
-- Previous MTD/QTD/YTD
-- Same Period Last Year
-- Growth %
-
----
-
-# 📊 Business Insights
-
-### Executive Dashboard
-
-- Revenue reached **1.67M**
-- Profit Margin is **33.06%**
-- Dubai generated the highest revenue
-- Furniture is the top-selling category
-
-### Product Dashboard
-
-- Generated **554K Profit**
-- Side Table is the highest revenue-generating product
-- Sales peak during June and December
-
-### Customer Dashboard
-
-- 98 Customers completed 500 Transactions
-- Platinum customers contribute the highest revenue
-- Customer activity increases toward year-end
-
-### Time Intelligence Dashboard
-
-- MTD Growth: **7%**
-- QTD Growth: **5%**
-- YTD Growth: **-3%**
+### Features
+- Current MTD
+- Current QTD
+- Current YTD
+- Previous Period Comparison
+- Running Total Sales
+- Rolling 3-Month Sales
+- 3-Month Moving Average
+- Monthly Growth %
+- Top 5 Sales Months
 
 ---
 
-# 📈 Key DAX Measures
+# 📊 Key Performance Indicators
 
-- Total Revenue
-- Total Profit
-- Profit Margin %
-- Average Order Value
-- Total Customers
-- Total Transactions
-- MTD Sales
-- QTD Sales
-- YTD Sales
-- Previous MTD
-- Previous QTD
-- Previous YTD
-- Same Period Last Year (SPLY)
-- Growth %
+- 💰 Total Revenue
+- 📈 Total Profit
+- 📦 Total Orders
+- 📊 Profit Margin
+- 👥 Total Customers
+- 🛒 Average Order Value
+- 📅 MTD, QTD & YTD Sales
+- 📉 Monthly Growth %
+- 🏆 Top Performing Product
+- 🌍 Top Revenue-Contributing City
 
 ---
 
-# 🛠️ Tools & Technologies
+# 📈 Visualizations Used
 
-- Microsoft Power BI Desktop
+- KPI Cards
+- Line Charts
+- Clustered Bar Charts
+- Horizontal Bar Charts
+- Donut Charts
+- Matrix
+- Maps
+- Scatter Charts
+- Monthly Trend Charts
+- Business Insight Cards
+- Interactive Slicers
+
+---
+
+# 🛠 Tools & Technologies
+
+- Microsoft Power BI
 - Power Query
 - DAX (Data Analysis Expressions)
-- Data Modeling
-- Interactive Visualizations
+- Data Modeling (Star Schema)
+- Microsoft Excel
 
 ---
 
-# 📂 Dataset
+# 📚 DAX Concepts Implemented
 
-The dashboard is built using a retail sales dataset containing information on:
+### Aggregation Functions
+- SUM
+- AVERAGE
+- DISTINCTCOUNT
+- COUNTROWS
+- DIVIDE
 
-- Orders
-- Customers
-- Products
-- Stores
-- Cities
-- Categories
-- Revenue
-- Cost
-- Quantity
-- Order Date
+### Filter Functions
+- CALCULATE
+- FILTER
+- ALL
+- ALLSELECTED
+
+### Ranking
+- RANKX
+
+### Iterators
+- SUMX
+- AVERAGEX
+
+### Time Intelligence
+- TOTALMTD
+- TOTALQTD
+- TOTALYTD
+- DATESMTD
+- DATESQTD
+- DATESYTD
+- DATESINPERIOD
+- SAMEPERIODLASTYEAR
+- Running Total
+- Rolling 3-Month Sales
+- Moving Average
 
 ---
 
-# 🎯 Business Objectives
+# 🎯 Business Insights
 
-- Monitor sales performance
-- Analyze profitability
-- Identify top-performing products
-- Understand customer behavior
-- Compare sales across different periods
-- Support strategic business decisions
+- Identified top-performing cities and stores.
+- Compared revenue and profitability across product categories.
+- Analyzed customer purchasing behavior and revenue contribution.
+- Monitored sales trends using MTD, QTD, and YTD metrics.
+- Evaluated seasonal sales patterns and monthly growth.
+- Identified best-selling products and top customers.
+- Tracked rolling sales trends for improved forecasting.
+
+---
+
+# 📂 Project Structure
+
+```
+Retail-Sales-Analytics-Dashboard/
+│
+├── Retail Sales Analytics.pbix
+├── Executive Dashboard.png
+├── Product Dashboard.png
+├── Customer Dashboard.png
+├── Time Intelligence Dashboard.png
+├── Dataset.xlsx
+└── README.md
+```
 
 ---
 
 # 📷 Dashboard Preview
 
-> Add screenshots of the dashboards here.
+### Executive KPI Dashboard
+*(Add Screenshot)*
 
-- Executive KPI Dashboard
-- Product Performance Dashboard
-- Customer Analytics Dashboard
-- Time Intelligence Dashboard
+### Product Performance Dashboard
+*(Add Screenshot)*
+
+### Customer Analytics Dashboard
+*(Add Screenshot)*
+
+### Time Intelligence Dashboard
+*(Add Screenshot)*
 
 ---
 
-# 🌟 Future Improvements
+# ⭐ Project Highlights
 
-- Drill-through reports
-- AI-powered insights
-- Forecasting
-- Bookmarks
-- Dynamic themes
-- Mobile layout optimization
+- Interactive dashboard navigation
+- Dynamic KPI cards
+- Advanced Time Intelligence analysis
+- Customer segmentation
+- Product performance tracking
+- Executive business insights
+- Fully interactive slicers
+- Professional dark-themed UI
+- Responsive dashboard design
+- Optimized DAX measures
 
 ---
 
@@ -216,6 +216,10 @@ The dashboard is built using a retail sales dataset containing information on:
 
 **Seepana Jyothirmai**
 
-- Data Analyst
-- Power BI Developer
-- SQL Enthusiast
+- 🎓 B.Tech (Computer Science & Engineering)
+- 📊 Aspiring Data Analyst
+- 💡 Passionate about Business Intelligence, Data Analytics, SQL, Power BI, and Python
+
+---
+
+### ⭐ If you found this project helpful, don't forget to star the repository!
